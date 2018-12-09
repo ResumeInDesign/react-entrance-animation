@@ -10,8 +10,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: 'dist/',
-    filename: 'react-hot-typer.js',
-    sourceMapFilename: 'react-hot-typer.map',
+    filename: 'react-entrance-animation.js',
+    sourceMapFilename: 'react-entrance-animation.map',
     library: 'ReactEntranceAnimation',
     libraryTarget: 'umd'
   },
