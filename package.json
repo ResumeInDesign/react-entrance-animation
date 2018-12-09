@@ -4,7 +4,7 @@
   "description": "A React component that handle loading with entrance animation",
   "author": "yasserhennawi",
   "license": "MIT",
-  "repository": "resumeindesign/react-entrance-animation",
+  "repository": "esumeInDesign/react-entrance-animation",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
