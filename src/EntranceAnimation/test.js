@@ -1,5 +1,7 @@
 import React from 'react';
+import { hot } from 'react-hot-loader';
+import EntranceAnimation from './index';
 
-const EntranceAnimation = () => <div>'Hello, npm!'</div>;
+const TestEntranceAnimation = () => <EntranceAnimation />;
 
-export default EntranceAnimation;
+export default hot(module)(TestEntranceAnimation);

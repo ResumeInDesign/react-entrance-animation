@@ -1,5 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import EntranceAnimation from './EntranceAnimation/test';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-ReactDOM.render(<EntranceAnimation />, document.getElementById('root'));
+import styles from './styles.css'
+
+export default class ExampleComponent extends Component {
+  static propTypes = {
+    text: PropTypes.string
+  }
+
+  render() {
+    const {
+      text
+    } = this.props
+
+    return (
+      <div className={styles.test}>
+        Example Component: {text}
+      </div>
+    )
+  }
+}
