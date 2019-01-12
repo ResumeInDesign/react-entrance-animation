@@ -1,6 +1,6 @@
 {
   "name": "react-entrance-animation",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A React component that handle loading with entrance animation",
   "author": "yasserhennawi",
   "license": "MIT",
@@ -57,5 +57,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-motion": "^0.5.2",
+    "styled-components": "^4.1.2"
+  }
 }
